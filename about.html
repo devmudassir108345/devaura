@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="#0f0f0f" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal porfolio site</title>
+
+    <link rel="stylesheet" href="asset/css/main.css" />
+    <script src="asset/js/tailwind.js"></script>
+  </head>
+
+  <body>
+    <!--
+  ┌─────────────────────────────────────────────┐
+  │          VERTICAL LINE CONTAINER            │
+  └─────────────────────────────────────────────┘
+  -->
+    <div class="container-auto">
+      <div class="lines-container">
+        <div class="verticle-line"></div>
+        <div class="verticle-line"></div>
+        <div class="verticle-line"></div>
+        <div class="verticle-line"></div>
+        <div class="verticle-line"></div>
+      </div>
+    </div>
+
+    <div class="section-bg-img">
+      <img src="asset/images/section-bg-circle-shape.png" alt="" />
+    </div>
+    <!--
+  ┌─────────────────────────────────────────────┐
+  │          SECTION HEADER : START             │
+  └─────────────────────────────────────────────┘
+  -->
+
+    <header class="header">
+      <div class="container-auto">
+        <div class="header__container">
+          <div class="header__logo">
+            <a href="index.html"> <img src="asset/images/logo.svg" alt="" /></a>
+          </div>
+          <nav class="header__nav header__nav-hidden">
+            <div class="header__close">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+
+            <ul class="header__list">
+              <li><a href="index.html" >Home</a></li>
+              <li><a href="about.html" class="active">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="blog.html">Blog</a></li>
+
+              <li class="dropdown">
+                <a href="#">Pages </a>
+                <ul>
+                  <li><a href="#">services details</a></li>
+                  <li><a href="#">blog details </a></li>
+                  <li><a href="#">porfolio </a></li>
+                  <li><a href="#">portfolio details </a></li>
+                  <li><a href="#">our team </a></li>
+                  <li><a href="#">pricing plan </a></li>
+                  <li><a href="#">testimonials </a></li>
+                  <li><a href="#">image gallery </a></li>
+                  <li><a href="#">video gallery </a></li>
+                  <li><a href="#"> FAQS </a></li>
+                  <li><a href="#"> 404 </a></li>
+
+                  <li class="sub-dropdown">
+                    <a href="#">header layout </a>
+                    <ul>
+                      <li><a href="#">header layout 1</a></li>
+                      <li><a href="#">header layout 2</a></li>
+                      <li><a href="#">header layout 3</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="sub-dropdown">
+                    <a href="#">footer layout </a>
+                    <ul>
+                      <li><a href="#">footer layout 1</a></li>
+                      <li><a href="#">footer layout 2</a></li>
+                      <li><a href="#">footer layout 3</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
+          <div class="header__btn">
+            <a href="#" class="btn btn--primary">download CV</a>
+            <div class="header__menu bg-gradient-hvr">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--
+  ┌─────────────────────────────────────────────┐
+  │          SECTION BAANER : START             │
+  └─────────────────────────────────────────────┘
+  -->
+
+    <section class="section--banner">
+      <div class="banner">
+        <div class="container-auto">
+          <div class="banner__container">
+            <div class="heading--primary">
+              <h1>About <span class="cl-gradient">us</span></h1>
+            </div>
+            <div class="banner__crums mt-[1.8rem] text-cp">
+              <a href="#">home</a> / <span>about us</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+  ┌─────────────────────────────────────────────┐
+  │  SECTION MARQUEE SCROLL   : START           │
+  └─────────────────────────────────────────────┘
+  -->
+
+    <div class="scrolling-text bg-gradient">
+      <div class="rail">
+        <h1 class="category ml-30">WIREFRAME DESIGN</h1>
+        <h1 class="category">MOBILE APP DESIGN</h1>
+        <h1 class="category">WEBSITE DESIGN</h1>
+        <h1 class="category">WEBSITE DESIGN</h1>
+        <h1 class="category">DASHBOARD DESIGN</h1>
+        <!-- <h1 class="category">PRODUCT DESIGN</h1> -->
+      </div>
+    </div>
+
+    <!--
+  ┌─────────────────────────────────────────────┐
+  │       SECTION  ABOUT US   : START           │
+  └─────────────────────────────────────────────┘
+  -->
+
+    <section class="section--about mt-[23rem] max-[670px]:mt-[15rem]">
+      <div class="about">
+        <div class="container-auto">
+          <div class="about__container">
+            <div class="about__col-left">
+              <div class="about__img">
+                <img
+                  src="asset/images/about-img-bg-ring.png"
+                  alt=""
+                  class="spiner"
+                />
+                <img
+                  src="asset/images/about-us-img.png"
+                  alt="about us img "
+                  class="person"
+                />
+              </div>
+            </div>
+            <div class="about__col-right">
+              <div class="heading--tertiary">
+                <h3>about us</h3>
+              </div>
+              <div class="heading--secondary mt-8">
+                <h2>who is <span class="cl-gradient">james scoot ?</span></h2>
+              </div>
+              <div class="heading--secondary-sm mt-18">
+                <h2>
+                  “Helping businesses grow with creative web design and
+                  development solutions."
+                </h2>
+              </div>
+              <div class="text mt-18">
+                <p>
+                  Hi, I’m James, a passionate
+                  <span class="cl-gradient underline f-sb"
+                    ><a href="#">UI/UX designer</a></span
+                  >
+                  who thrives on turning ideas into visually stunning realities.
+                  With a love for creativity and a meticulous eye for detail.
+                </p>
+              </div>
+              <div class="about__infos">
+                <div class="about__info-row-left">
+                  <div class="about__contact">
+                    <div class="about__infos-icon">
+                      <img src="asset/images/email.png" alt="email icon" />
+                    </div>
+                    <div class="text">
+                      <p>email us at</p>
+                    </div>
+                    <div class="heading--secondary-sm f-sb">
+                      <h2><a href="#">info@domain.com</a></h2>
+                    </div>
+                  </div>
+                  <div class="about__contact">
+                    <div class="about__infos-icon">
+                      <img src="asset/images/phone.png" alt="email icon" />
+                    </div>
+                    <div class="text">
+                      <p>phone number</p>
+                    </div>
+                    <div class="heading--secondary-sm f-sb">
+                      <h2><a href="#">+0 123 456 789</a></h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="about__info-row-right">
+                  <div class="about__year f-sb">
+                    <h2 class="cl-gradient">12+</h2>
+                    <p>years experience</p>
+                  </div>
+                  <div class="text mt-15 text-cp text-center">
+                    <p>my resume <span class="cl-gradient">✦</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+  ┌─────────────────────────────────────────────┐
+  │       SECTION APPROUC     : START           │
+  └─────────────────────────────────────────────┘
+  -->
+
+    <section class="section-approuch mt-[16rem] max-[670px]:mt-[10rem]">
+      <div class="approuch">
+        <div class="container-auto">
+          <div class="approuch__title">
+            <div class="heading--tertiary justify-center">
+              <h3>our approuch</h3>
+            </div>
+            <div class="heading--secondary mt-[1rem]">
+              <h2>
+                Designing success with
+                <span class="cl-gradient"> approach </span>
+              </h2>
+            </div>
+          </div>
+          <div class="approuch__container">
+            <div class="approuch__item">
+              <div class="approuch__item-head">
+                <div class="arrow arrow--primary">
+                  <img src="asset/images/icon-1.png" alt="" />
+                </div>
+                <div class="heading--secondary-sm">
+                  <h2>our mission</h2>
+                </div>
+              </div>
+              <div class="text">
+                <p>
+                  Our mission is to create visually stunning as and impactful
+                  designs that individuality of leave a lasting impression.
+                </p>
+              </div>
+            </div>
+            <div class="approuch__item">
+              <div class="approuch__item-head">
+                <div class="arrow arrow--primary">
+                  <img src="asset/images/icon-2.png" alt="" />
+                </div>
+                <div class="heading--secondary-sm">
+                  <h2>our mission</h2>
+                </div>
+              </div>
+              <div class="text">
+                <p>
+                  Our mission is to create visually stunning as and impactful
+                  designs that individuality of leave a lasting impression.
+                </p>
+              </div>
+            </div>
+            <div class="approuch__item">
+              <div class="approuch__item-head">
+                <div class="arrow arrow--primary">
+                  <img src="asset/images/icon-3.png" alt="" />
+                </div>
+                <div class="heading--secondary-sm">
+                  <h2>our mission</h2>
+                </div>
+              </div>
+              <div class="text">
+                <p>
+                  Our mission is to create visually stunning as and impactful
+                  designs that individuality of leave a lasting impression.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="video__container video__container-lg">
+            <!-- Video Thumbnail -->
+            <div class="video__thumnail video__thumnail-2">
+              <img src="asset/images/intro-bg-image.jpg" alt="MP4 Video" />
+
+              <div class="approuch__counter counter">
+                <div class="approuch__counter-item">
+                  <div class="heading--secondary cl-gradient">
+                    <h2 class="count" data-count="500"></h2>
+                    +
+                  </div>
+                  <div class="text mt-[1.7rem] f-sb">
+                    <p>Project Complete</p>
+                  </div>
+                </div>
+                <div class="approuch__counter-item">
+                  <div class="heading--secondary cl-gradient">
+                    <h2 class="count" data-count="12"></h2>
+                    +
+                  </div>
+                  <div class="text mt-[1.7rem] f-sb">
+                    <p>Project Complete</p>
+                  </div>
+                </div>
+                <div class="approuch__counter-item">
+                  <div class="heading--secondary cl-gradient">
+                    <h2 class="count" data-count="20"></h2>
+                    k+
+                  </div>
+                  <div class="text mt-[1.7rem] f-sb">
+                    <p>Project Complete</p>
+                  </div>
+                </div>
+                <div class="approuch__counter-item">
+                  <div class="heading--secondary cl-gradient">
+                    <h2 class="count" data-count="97"></h2>
+                    %
+                  </div>
+                  <div class="text mt-[1.7rem] f-sb">
+                    <p>Project Complete</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Play Button -->
+            <div
+              class="video__play-btn"
+              data-src="https://www.youtube.com/watch?v=9CJfSLzELfM&list=RD0xqSJxbyyA0&index=12"
+            >
+              <i class="fas fa-play bg-gradient-hvr"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+  ┌─────────────────────────────────────────────┐
+  │       SECTION  SKILLS     : START           │
+  └─────────────────────────────────────────────┘
+  -->
+
+    <section class="section--skills mt-[19rem] max-[670px]:mt-[10rem]">
+      <div class="skils">
+        <div class="container-auto">
+          <div class="skils__title">
+            <div class="heading--tertiary">
+              <h3>my tools</h3>
+            </div>
+            <div class="heading--secondary">
+              <h2>
+                Design, develop, deliver: my
+                <span class="cl-gradient">essential gear</span>
+              </h2>
+            </div>
+          </div>
+          <div class="skils__container counter">
+            <div class="skils__item">
+              <div class="skils__icon">
+                <img src="asset/images/skils-1.png" alt="" />
+              </div>
+              <div class="skils__name">
+                <div class="heading--secondary-sm text-cp">
+                  <h2>figma</h2>
+                </div>
+                <div class="text">
+                  <p>Sit consectetur elit</p>
+                </div>
+              </div>
+              <div class="skils__percent ml-8">
+                <div class="heading--secondary cl-gradient">
+                  <h2 class="count" data-count="97"></h2>
+                  %
+                </div>
+              </div>
+            </div>
+            <div class="skils__item">
+              <div class="skils__icon">
+                <img src="asset/images/skils-2.png" alt="" />
+              </div>
+              <div class="skils__name">
+                <div class="heading--secondary-sm text-cp">
+                  <h2>figma</h2>
+                </div>
+                <div class="text">
+                  <p>Sit consectetur elit</p>
+                </div>
+              </div>
+              <div class="skils__percent ml-8">
+                <div class="heading--secondary cl-gradient">
+                  <h2 class="count" data-count="97"></h2>
+                  %
+                </div>
+              </div>
+            </div>
+            <div class="skils__item">
+              <div class="skils__icon">
+                <img src="asset/images/skils-3.png" alt="" />
+              </div>
+              <div class="skils__name">
+                <div class="heading--secondary-sm text-cp">
+                  <h2>figma</h2>
+                </div>
+                <div class="text">
+                  <p>Sit consectetur elit</p>
+                </div>
+              </div>
+              <div class="skils__percent ml-8">
+                <div class="heading--secondary cl-gradient">
+                  <h2 class="count" data-count="97"></h2>
+                  %
+                </div>
+              </div>
+            </div>
+            <div class="skils__item">
+              <div class="skils__icon">
+                <img src="asset/images/skils-4.png" alt="" />
+              </div>
+              <div class="skils__name">
+                <div class="heading--secondary-sm text-cp">
+                  <h2>figma</h2>
+                </div>
+                <div class="text">
+                  <p>Sit consectetur elit</p>
+                </div>
+              </div>
+              <div class="skils__percent ml-8">
+                <div class="heading--secondary cl-gradient">
+                  <h2 class="count" data-count="97"></h2>
+                  %
+                </div>
+              </div>
+            </div>
+            <div class="skils__item">
+              <div class="skils__icon">
+                <img src="asset/images/skils-5.png" alt="" />
+              </div>
+              <div class="skils__name">
+                <div class="heading--secondary-sm text-cp">
+                  <h2>figma</h2>
+                </div>
+                <div class="text">
+                  <p>Sit consectetur elit</p>
+                </div>
+              </div>
+              <div class="skils__percent ml-8">
+                <div class="heading--secondary cl-gradient">
+                  <h2 class="count" data-count="97"></h2>
+                  %
+                </div>
+              </div>
+            </div>
+            <div class="skils__item">
+              <div class="skils__icon">
+                <img src="asset/images/skils-6.png" alt="" />
+              </div>
+              <div class="skils__name">
+                <div class="heading--secondary-sm text-cp">
+                  <h2>figma</h2>
+                </div>
+                <div class="text">
+                  <p>Sit consectetur elit</p>
+                </div>
+              </div>
+              <div class="skils__percent ml-8">
+                <div class="heading--secondary cl-gradient">
+                  <h2 class="count" data-count="97"></h2>
+                  %
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+  ┌─────────────────────────────────────────────┐
+  │       SECTION   TEAMS          : START      │
+  └─────────────────────────────────────────────┘
+  -->
+
+    <section class="section--team mt-[17rem] max-[670px]:mt-[10rem]">
+      <div class="team">
+        <div class="container-auto">
+          <div class="approuch__title">
+            <div class="heading--tertiary justify-center">
+              <h3>our team</h3>
+            </div>
+            <div class="heading--secondary mt-[1rem]">
+              <h2>
+                get to know our creative
+                <span class="cl-gradient"> experts </span>
+              </h2>
+            </div>
+          </div>
+          <div class="team__container">
+            <div class="team__item">
+              <div class="team__img shine-glass-effect">
+                <img src="asset/images/team-1.jpg" alt="experts team menber" />
+                <div class="team__social">
+                  <a href="#" class="icon icon--primary">
+                    <i class="fa-brands fa-pinterest-p"></i>
+                  </a>
+                  <a href="#" class="icon icon--primary">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="#" class="icon icon--primary">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="#" class="icon icon--primary">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </div>
+              </div>
+              <a href="#" class="team__info text-center">
+                <div class="heading--secondary-sm">
+                  <h2>cameron williamson</h2>
+                </div>
+                <div class="text mt-[1rem]">
+                  <p>creative directer</p>
+                </div>
+              </a>
+            </div>
+            <div class="team__item">
+              <div class="team__img shine-glass-effect">
+                <img src="asset/images/team-1.jpg" alt="experts team menber" />
+                <div class="team__social">
+                  <a href="#" class="icon icon--primary">
+                    <i class="fa-brands fa-pinterest-p"></i>
+                  </a>
+                  <a href="#" class="icon icon--primary">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="#" class="icon icon--primary">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="#" class="icon icon--primary">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </div>
+              </div>
+              <a href="#" class="team__info text-center">
+                <div class="heading--secondary-sm">
+                  <h2>cameron williamson</h2>
+                </div>
+                <div class="text mt-[1rem]">
+                  <p>creative directer</p>
+                </div>
+              </a>
+            </div>
+            <div class="team__item">
+              <div class="team__img shine-glass-effect">
+                <img src="asset/images/team-1.jpg" alt="experts team menber" />
+                <div class="team__social">
+                  <a href="#" class="icon icon--primary">
+                    <i class="fa-brands fa-pinterest-p"></i>
+                  </a>
+                  <a href="#" class="icon icon--primary">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="#" class="icon icon--primary">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="#" class="icon icon--primary">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </div>
+              </div>
+              <a href="#" class="team__info text-center">
+                <div class="heading--secondary-sm">
+                  <h2>cameron williamson</h2>
+                </div>
+                <div class="text mt-[1rem]">
+                  <p>creative directer</p>
+                </div>
+              </a>
+            </div>
+            <div class="team__item">
+              <div class="team__img shine-glass-effect">
+                <img src="asset/images/team-1.jpg" alt="experts team menber" />
+                <div class="team__social">
+                  <a href="#" class="icon icon--primary">
+                    <i class="fa-brands fa-pinterest-p"></i>
+                  </a>
+                  <a href="#" class="icon icon--primary">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                  <a href="#" class="icon icon--primary">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="#" class="icon icon--primary">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </div>
+              </div>
+              <a href="#" class="team__info text-center">
+                <div class="heading--secondary-sm">
+                  <h2>cameron williamson</h2>
+                </div>
+                <div class="text mt-[1rem]">
+                  <p>creative directer</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+  ┌─────────────────────────────────────────────┐
+  │    SECTION INDUSTRU SHOWCASE   : START      │
+  └─────────────────────────────────────────────┘
+  -->
+    <section class="section--industry mt-[17rem] max-[670px]:mt-[10rem]">
+      <div class="industry">
+        <div class="container-auto">
+          <div class="industry__title">
+            <div class="heading--tertiary justify-center">
+              <h3>our feature</h3>
+            </div>
+            <div class="heading--secondary mt-[1rem]">
+              <h2>
+                Showcasing excellence our
+                <span class="cl-gradient">unique features</span>
+              </h2>
+            </div>
+            <div class="text mt-[1.8rem]">
+              <p>
+                Our unique features highlight creativity, innovation, and
+                precision, delivering exceptional results that set your
+                portfolio apart.
+              </p>
+            </div>
+          </div>
+          <div class="industry__container mt-[10rem]">
+            <div class="industry__left">
+              <div class="industry__subheading"></div>
+              <div class="industry__headings">
+                <h2>Webflow SEO For</h2>
+                <span id="dynamic-heading" class="cl-gradient">B2B SaaS</span>
+              </div>
+            </div>
+
+            <!-- Right Side: Scrollable Sections -->
+            <div class="industry__right">
+              <ul>
+                <li>
+                  <a
+                    href="#"
+                    class="data__title"
+                    data-title="B2B Saas"
+                    data-tooltip="B2B Saas"
+                    >B2B Saas
+                    <i class="fa-solid fa-angle-right"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="data__title"
+                    data-title="Artificial Intelligence"
+                    data-tooltip="Artificial Intelligence"
+                    >Artificial Intelligence
+                    <i class="fa-solid fa-angle-right"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="data__title"
+                    data-title="Web3"
+                    data-tooltip="Web3"
+                    >Web3
+                    <i class="fa-solid fa-angle-right"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="data__title"
+                    data-title="Information Technology"
+                    data-tooltip="Information Technology"
+                    >Information Technology
+                    <i class="fa-solid fa-angle-right"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="data__title"
+                    data-title="Financial Services"
+                    data-tooltip="Financial Services"
+                    >Financial Services <i class="fa-solid fa-angle-right"></i
+                  ></a>
+                </li>
+
+                <li>
+                  <a
+                    href="#"
+                    class="data__title"
+                    data-title="E-commerce"
+                    data-tooltip="E-commerce"
+                    >E-commerce <i class="fa-solid fa-angle-right"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="data__title"
+                    data-title="Real-Estate & Hospitality"
+                    data-tooltip="Real-Estate & Hospitality"
+                    >Real-Estate & Hospitality
+                    <i class="fa-solid fa-angle-right"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+  ┌─────────────────────────────────────────────┐
+  │       SECTION   MOMENTS        : START      │
+  └─────────────────────────────────────────────┘
+  -->
+
+    <section class="section--moments mt-[10rem] max-[670px]:mt-[0rem]">
+      <div class="moments">
+        <div class="container-auto">
+          <div class="moments__headings">
+            <div class="heading--tertiary">
+              <h3>How I Live</h3>
+            </div>
+            <div class="heading--secondary">
+              <h2>Moments of my <span class="cl-gradient">life</span></h2>
+            </div>
+          </div>
+          <div class="moments__container">
+            <div class="tabs">
+              <button class="tab-btn active" data-tab="travel">TRAVEL</button>
+              <button class="tab-btn" data-tab="creativity">CREATIVITY</button>
+              <button class="tab-btn" data-tab="moments">MOMENTS</button>
+              <span class="tab-underline"></span>
+            </div>
+
+            <div class="tab-pane active" id="travel">
+              <div class="left">
+                <div class="tab-text text__lg">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum
+                  sociis natoque penatibus et magnis dis parturient montes,
+                  nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                  pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum
+                  sociis natoque penatibus et magnis dis parturient montes,
+                  nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                  pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+                  enim.
+                </div>
+              </div>
+
+              <!-- Add this inside your .moments__container -->
+              <div class="right" data-fancybox="gallery-1">
+                <a href="asset/images/gallery_1.jpg" data-fancybox="gallery-1">
+                  <img src="asset/images/gallery_1.jpg" alt="Gallery 1" />
+                </a>
+                <a href="asset/images/gallery_4.jpg" data-fancybox="gallery-1">
+                  <img src="asset/images/gallery_4.jpg" alt="Gallery 4" />
+                </a>
+                <a href="asset/images/gallery_3.jpg" data-fancybox="gallery-1">
+                  <img src="asset/images/gallery_3.jpg" alt="Gallery 3" />
+                </a>
+                <a href="asset/images/gallery_2.jpg" data-fancybox="gallery-1">
+                  <img src="asset/images/gallery_2.jpg" alt="Gallery 2" />
+                </a>
+              </div>
+            </div>
+
+            <!-- Creativity Tab -->
+            <div class="tab-pane" id="creativity">
+              <div class="left">
+                <div class="tab-text text__lg">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum
+                  sociis natoque penatibus et magnis dis parturient montes,
+                  nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                  pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+                  enim.
+                </div>
+              </div>
+
+              <div class="right" data-fancybox="gallery-3">
+                <a href="asset/images/gallery_1.jpg" data-fancybox="gallery-3">
+                  <img src="asset/images/gallery_1.jpg" alt="Gallery 1" />
+                </a>
+
+                <a href="asset/images/gallery_2.jpg" data-fancybox="gallery-3">
+                  <img src="asset/images/gallery_2.jpg" alt="Gallery 2" />
+                </a>
+
+                <a href="asset/images/gallery_3.jpg" data-fancybox="gallery-3">
+                  <img src="asset/images/gallery_3.jpg" alt="Gallery 3" />
+                </a>
+
+                <a href="asset/images/gallery_4.jpg" data-fancybox="gallery-3">
+                  <img src="asset/images/gallery_4.jpg" alt="Gallery 4" />
+                </a>
+              </div>
+            </div>
+
+            <!-- Moments Tab -->
+            <div class="tab-pane" id="moments">
+              <div class="left">
+                <div class="tab-text text__lg">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum
+                  sociis natoque penatibus et magnis dis parturient montes,
+                  nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                  pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+                  enim.
+                </div>
+              </div>
+
+              <div class="right" data-fancybox="gallery-3">
+                <a href="asset/images/gallery_1.jpg" data-fancybox="gallery-3">
+                  <img src="asset/images/gallery_1.jpg" alt="Gallery 1" />
+                </a>
+
+                <a href="asset/images/gallery_3.jpg" data-fancybox="gallery-3">
+                  <img src="asset/images/gallery_3.jpg" alt="Gallery 3" />
+                </a>
+
+                <a href="asset/images/gallery_2.jpg" data-fancybox="gallery-3">
+                  <img src="asset/images/gallery_2.jpg" alt="Gallery 2" />
+                </a>
+
+                <a href="asset/images/gallery_4.jpg" data-fancybox="gallery-3">
+                  <img src="asset/images/gallery_4.jpg" alt="Gallery 4" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+  ┌─────────────────────────────────────────────┐
+  │       SECTION  CLIENTS         : START      │
+  └─────────────────────────────────────────────┘
+  -->
+
+    <section class="section--clients">
+      <div class="clients">
+        <div class="container-auto">
+          <div class="clients__headings">
+            <div class="heading--tertiary justify-center">
+              <h3>testimonials</h3>
+            </div>
+            <div class="heading--secondary mt-2">
+              <h2>Our happy clients</h2>
+            </div>
+            <div class="text__lg">
+              <p>
+                Hear from clients who’ve experienced remarkable transformations
+                with Webyansh.
+              </p>
+            </div>
+          </div>
+          <div class="clients__slider">
+            <div class="custom-pagination"></div>
+            <div id="testimonial-slider" class="splide">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide">
+                    <p class="testimonial-text">
+                      "Mahojin's landing page work was completed with a sense of
+                      responsibility despite the tight timeline and demanding
+                      requirements. He successfully directed the design, 3D
+                      work, and development, and communicated responsively with
+                      us as the client, which allowed us to successfully launch
+                      the landing page on time."
+                    </p>
+                    <div class="testimonial-author">
+                      <img
+                        src="https://randomuser.me/api/portraits/women/44.jpg"
+                        alt="Diana"
+                      />
+                      <div class="info">
+                        <strong>Diana Kew</strong>
+                        CMO, Hubly
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="splide__slide">
+                    <p class="testimonial-text">
+                      "Mahojin's landing page work was completed with a sense of
+                      responsibility despite the tight timeline and demanding
+                      requirements. He successfully directed the design, 3D
+                      work, and development, and communicated responsively with
+                      us as the client, which allowed us to successfully launch
+                      the landing page on time."
+                    </p>
+                    <div class="testimonial-author">
+                      <img
+                        src="https://randomuser.me/api/portraits/men/46.jpg"
+                        alt="Kain"
+                      />
+                      <div class="info">
+                        <strong>Kain (Kyel) Seo</strong>
+                        Cofounder, Mahojin
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="splide__slide">
+                    <p class="testimonial-text">
+                      "Mahojin's landing page work was completed with a sense of
+                      responsibility despite the tight timeline and demanding
+                      requirements. He successfully directed the design, 3D
+                      work, and development, and communicated responsively with
+                      us as the client, which allowed us to successfully launch
+                      the landing page on time."
+                    </p>
+                    <div class="testimonial-author">
+                      <img
+                        src="https://randomuser.me/api/portraits/women/65.jpg"
+                        alt="Helena"
+                      />
+                      <div class="info">
+                        <strong>Helena Turpin</strong>
+                        Co-Founder, GoFIGR
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="splide__slide">
+                    <p class="testimonial-text">
+                      "Mahojin's landing page work was completed with a sense of
+                      responsibility despite the tight timeline and demanding
+                      requirements. He successfully directed the design, 3D
+                      work, and development, and communicated responsively with
+                      us as the client, which allowed us to successfully launch
+                      the landing page on time."
+                    </p>
+                    <div class="testimonial-author">
+                      <img
+                        src="https://randomuser.me/api/portraits/men/52.jpg"
+                        alt="Lucas"
+                      />
+                      <div class="info">
+                        <strong>Lucas Grey</strong>
+                        CEO, PixelCraft
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="splide__slide">
+                    <p class="testimonial-text">
+                      "Mahojin's landing page work was completed with a sense of
+                      responsibility despite the tight timeline and demanding
+                      requirements. He successfully directed the design, 3D
+                      work, and development, and communicated responsively with
+                      us as the client, which allowed us to successfully launch
+                      the landing page on time."
+                    </p>
+                    <div class="testimonial-author">
+                      <img
+                        src="https://randomuser.me/api/portraits/men/52.jpg"
+                        alt="Lucas"
+                      />
+                      <div class="info">
+                        <strong>Lucas Grey</strong>
+                        CEO, PixelCraft
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="splide__slide">
+                    <p class="testimonial-text">
+                      "Mahojin's landing page work was completed with a sense of
+                      responsibility despite the tight timeline and demanding
+                      requirements. He successfully directed the design, 3D
+                      work, and development, and communicated responsively with
+                      us as the client, which allowed us to successfully launch
+                      the landing page on time."
+                    </p>
+                    <div class="testimonial-author">
+                      <img
+                        src="https://randomuser.me/api/portraits/women/30.jpg"
+                        alt="Sarah"
+                      />
+                      <div class="info">
+                        <strong>Sarah Long</strong>
+                        Founder, LongDesigns
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="custom-arrows">
+              <button class="custom-prev bg-gradient-hvr">
+                <img src="asset/images/arrow.png" alt="" />
+              </button>
+              <button class="custom-next bg-gradient-hvr">
+                <img src="asset/images/arrow.png" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+  ┌─────────────────────────────────────────────┐
+  │       SECTION  FAQS            : START      │
+  └─────────────────────────────────────────────┘
+  -->
+
+    <section class="section--faq">
+      <div class="faq">
+        <div class="container-auto">
+          <div class="faq__container">
+            <div class="faq__card">
+              <div class="faq__content">
+                <div class="faq__icon">
+                  <img src="asset/images/callicon.png" alt="call icon" />
+                </div>
+                <div class="heading--secondary-sm">
+                  <h1>You have different questions? Ask Away!</h1>
+                </div>
+                <div class="text">
+                  <p>Work With People And Brands Worldwide.</p>
+                </div>
+                <div class="faq__btn">
+                  <a href="#" class="btn btn--primary">contact us now</a>
+                </div>
+              </div>
+            </div>
+            <div class="faq__accordion">
+              <div class="accordion">
+                <div class="accordion-item active">
+                  <div class="accordion-header">
+                    Why is Webflow the right platform for UI/UX design?
+                    <div class="accordion-arrow">
+                      <i class="fa-regular fa-angle-down"></i>
+                    </div>
+                  </div>
+                  <div class="accordion-content">
+                    <div class="accordion-inner text__sm">
+                      <p>
+                        -SEO is a long-term strategy, and it can take anywhere
+                        from 3 to 6 months to see significant improvements in
+                        rankings, depending on your industry and competition
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <div class="accordion-header">
+                    Why is Webflow the right platform for UI/UX design?
+                    <div class="accordion-arrow">
+                      <i class="fa-regular fa-angle-down"></i>
+                    </div>
+                  </div>
+                  <div class="accordion-content">
+                    <div class="accordion-inner text__sm">
+                      <p>
+                        SEO is a long-term strategy, and it can take anywhere
+                        from 3 to 6 months to see significant improvements in
+                        rankings, depending on your industry and competition
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-header">
+                    Why is Webflow the right platform for UI/UX design?
+                    <div class="accordion-arrow">
+                      <i class="fa-regular fa-angle-down"></i>
+                    </div>
+                  </div>
+                  <div class="accordion-content">
+                    <div class="accordion-inner text__sm">
+                      <p>
+                        SEO is a long-term strategy, and it can take anywhere
+                        from 3 to 6 months to see significant improvements in
+                        rankings, depending on your industry and competition
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-header">
+                    Why is Webflow the right platform for UI/UX design?
+                    <div class="accordion-arrow">
+                      <i class="fa-regular fa-angle-down"></i>
+                    </div>
+                  </div>
+                  <div class="accordion-content">
+                    <div class="accordion-inner text__sm">
+                      <p>
+                        SEO is a long-term strategy, and it can take anywhere
+                        from 3 to 6 months to see significant improvements in
+                        rankings, depending on your industry and competition
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-header">
+                    Why is Webflow the right platform for UI/UX design?
+                    <div class="accordion-arrow">
+                      <i class="fa-regular fa-angle-down"></i>
+                    </div>
+                  </div>
+                  <div class="accordion-content">
+                    <div class="accordion-inner text__sm">
+                      <p>
+                        SEO is a long-term strategy, and it can take anywhere
+                        from 3 to 6 months to see significant improvements in
+                        rankings, depending on your industry and competition
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+  ┌─────────────────────────────────────────────┐
+  │       SECTION  CONTACT    : START           │
+  └─────────────────────────────────────────────┘
+  -->
+
+    <section class="section--contact">
+      <div class="container-auto">
+        <div class="contact cl-white">
+          <div class="container-sm">
+            <div class="contact__headings">
+              <div class="heading--tertiary justify-center">
+                <h3>contact us</h3>
+              </div>
+              <div class="heading--secondary">
+                <h2>
+                  Get in touch to discuss your
+                  <span class="cl-gradient">next project</span>
+                </h2>
+              </div>
+              <div class="text mt-[2rem]">
+                <p>
+                  Have a project in mind? Contact us for expert design and
+                  development solutions. Let's discuss how we can help grow your
+                  business.
+                </p>
+              </div>
+            </div>
+            <div class="contact__container">
+              <div class="contact__col">
+                <div class="contact__img shine-glass-effect">
+                  <img
+                    src="asset/images/person__img.jpg"
+                    alt="a professional img of person"
+                  />
+                  <div class="contact__icons">
+                    <a
+                      href="#"
+                      class="icon cl-gradient"
+                      data-tooltip="LinkedIn"
+                    >
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="icon cl-gradient"
+                      data-tooltip="Instagram"
+                    >
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="icon cl-gradient" data-tooltip="X">
+                      <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="icon cl-gradient" data-tooltip="Drible">
+                      <i class="fa-light fa-basketball"></i>
+                    </a>
+                    <a href="#" class="icon cl-gradient" data-tooltip="Behance">
+                      <i class="fa-brands fa-behance"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="text__sm mt-20">
+                  <p>
+                    Hi, <strong>I’m Divyansh - Founder at Webyansh</strong>.
+                    <a href="# " class="cl-gradient">Schedule a call with me</a>
+                    to discuss in detail about your project and how we can help
+                    your business. You can also
+                    <strong>request for free custom quote</strong> if the scope
+                    of work is clear.
+                  </p>
+                </div>
+              </div>
+
+              <div class="contact__form">
+                <form class="form">
+                  <!-- First Row - Name and Email -->
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Tony Stark"
+                        required
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email Address</label>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="tony@starkindustries.com"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <!-- Second Row - Help and Budget -->
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="help">How we can help? *</label>
+                      <select id="help" name="help" required>
+                        <option value="">Select</option>
+                        <option value="web-development">Web Development</option>
+                        <option value="mobile-app">Mobile App</option>
+                        <option value="consulting">Consulting</option>
+                        <option value="design">Design</option>
+                        <option value="marketing">Marketing</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="budget">what's your budget ? *</label>
+                      <select id="budget" name="budget">
+                        <option value="$2k - $5k">$2k - $5k</option>
+                        <option value="$5k - $10k">$5k - $10k</option>
+                        <option value="$10k - $20k">$10k - $20k</option>
+                        <option value="$20k - $50k">$20k - $50k</option>
+                        <option value="$50k+">$50k+</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <!-- Third Row - Deadline and Source -->
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="deadline"
+                        >what yours project deadline ? *</label
+                      >
+                      <select id="deadline" name="deadline" required>
+                        <option value="Less than 4 weeks">
+                          Less than 4 weeks
+                        </option>
+                        <option value="4 to 10 weeks">4 to 10 weeks</option>
+                        <option value="more than 10 weeks">
+                          More than 10 weeks
+                        </option>
+                        <option value="hard deadline">Hard Deadline</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="hear from"
+                        >How did you hear about us ? *</label
+                      >
+                      <select id="hear from" name="hear from" required>
+                        <option value="Google">Google</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="Twitter">Twitter</option>
+                        <option value="LinkedIn">LinkedIn</option>
+                        <option value="Referral">Referral</option>
+                        <option value="Other">Other</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <!-- Message Field -->
+                  <div class="form-group full-width">
+                    <label for="message">Message</label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      placeholder="Your Message"
+                    ></textarea>
+                  </div>
+                  <div class="form-group">
+                    <div class="form__btn">
+                      <button type="submit" class="btn btn--primary">
+                        submitt and book a call
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+  ┌─────────────────────────────────────────────┐
+  │       SECTION  FOOTER          : START      │
+  └─────────────────────────────────────────────┘
+  -->
+
+    <footer class="footer bg-gradient">
+      <div class="container-auto">
+        <div class="footer__head">
+          <div class="footer__text">
+            <div class="footer__heading">
+              <h2>READY TO WORK WITH US?</h2>
+            </div>
+            <div class="heading--secondary-sm">
+              <h2>
+                Partner with our design agency for your business with amazing
+                results.
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="footer__container">
+          <div class="footer__item">
+            <div class="footer__logo">
+              <a href="#">
+                <img src="asset/images/footer-logo.svg" alt="footer logo"
+              /></a>
+            </div>
+            <div class="text mt-[2.2rem]">
+              <p>
+                Crafting intuitive, user-centric designs that bring ideas to
+                life. With a passion for innovation and creativity, I help
+                businesses and individuals.
+              </p>
+            </div>
+            <div class="footer__icons mt-[2.2rem]">
+              <a href="#" class="icon icon--primary">
+                <i class="fa-light fa-basketball"></i
+              ></a>
+
+              <a href="#" class="icon icon--primary">
+                <i class="fa-brands fa-facebook-f"></i
+              ></a>
+
+              <a href="#" class="icon icon--primary">
+                <i class="fa-brands fa-instagram"></i
+              ></a>
+
+              <a href="#" class="icon icon--primary">
+                <i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer__item">
+            <div class="heading--secondary-sm">
+              <h2>quick links</h2>
+            </div>
+            <div class="footer__links f-sb text-cp">
+              <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">portfolio</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__item">
+            <div class="heading--secondary-sm">
+              <h2>Our Services</h2>
+            </div>
+            <div class="footer__links f-sb text-cp">
+              <ul>
+                <li><a href="#">Mobile App Design</a></li>
+                <li><a href="#">Branding And Visual Identity</a></li>
+                <li><a href="#">Consultation And Strategy</a></li>
+                <li><a href="#">UI/UX Design System Creation</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__item">
+            <div class="heading--secondary-sm">
+              <h2>Our work</h2>
+            </div>
+            <div class="footer__links f-sb text-cp">
+              <ul>
+                <li><a href="#">Behance</a></li>
+                <li><a href="#">Dribbble</a></li>
+                <li><a href="#">CUpwork</a></li>
+                <li><a href="#">Fiverr</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--
+  ┌─────────────────────────────────────────────┐
+  │        * ADD SCRIPT JS FILES                │
+  └─────────────────────────────────────────────┘
+  -->
+
+    <script src="asset/js/jquery.js"></script>
+    <script src="/asset/js/lenis.min.js"></script>
+    <script src="asset/js/splide.min.js"></script>
+    <script src="/asset/js/gsa.js"></script>
+    <script src="/asset/js/ScrollTrigge.js"></script>
+    <script src="asset/js/swiper-bundle.js"></script>
+    <script src="asset/js/fancybox.js"></script>
+    <script src="asset/js/custom.js"></script>
+    <script src="asset/js/lib-init.js"></script>
+  </body>
+</html>

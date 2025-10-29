@@ -1,0 +1,28 @@
+/*****************************************************
+ *                                                   *
+ *                 SWIPER . JS                       *
+ *                                                   *
+ *****************************************************/
+
+
+.swiper-container {
+    width: 100%;/* overflow: hidden; */
+    z-index: auto !important;
+    /* Full viewport height */
+
+}
+
+
+.hero__slider {
+   
+    overflow: hidden;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .swiper-container {
+       overflow: hidden;
+    }
+    
+    
+}
