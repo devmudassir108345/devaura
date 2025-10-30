@@ -1,0 +1,32 @@
+{
+  "name": "specture",
+  "version": "1.0.0",
+  "description": "specture is a portfolio project that showcases my skills and projects. It is built using HTML, CSS, JavaScript, and various libraries such as Bootstrap, Swiper, and Tailwind CSS.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass asset/sass/main.scss asset/css/style.css --watch",
+    "global": "sass asset/sass/global.scss asset/css/global.css --watch",
+    "start": "lite-server",
+    "dev": "concurrently \"npm run sass\" \"npm run global\" \"npm start\"",
+    "build": "sass asset/sass/main.scss asset/css/style.css && sass asset/sass/global.scss asset/css/global.css"
+  },
+  "author": "Mudassir Aftab",
+  "license": "ISC",
+  "keywords": [
+    "portfolio",
+    "project"
+  ],
+  "dependencies": {
+    "@fancyapps/ui": "^5.0.36",
+    "@tailwindcss/vite": "^4.0.0",
+    "bootstrap": "^5.3.3",
+    "concurrently": "^9.2.1",
+    "swiper": "^11.2.1",
+    "tailwindcss": "^4.0.0",
+    "yargs": "^18.0.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "sass": "^1.93.2"
+  }
+}

@@ -515,6 +515,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
   console.clear();
 });
-
-
-

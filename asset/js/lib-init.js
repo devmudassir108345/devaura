@@ -90,7 +90,6 @@ lenis.on("scroll", ScrollTrigger.update);
 //   });
 // });
 
-
 // ✅ Corrected version
 document.addEventListener("DOMContentLoaded", function () {
   const sliderEl = document.querySelector("#testimonial-slider");
@@ -112,7 +111,12 @@ document.addEventListener("DOMContentLoaded", function () {
     breakpoints: {
       1240: { perPage: 2, gap: "1.5rem", padding: { left: "5%", right: "5%" } },
       992: { perPage: 2, focus: 0, padding: { left: "3%", right: "3%" } },
-      768: { perPage: 1, gap: "1rem", focus: 0, padding: { left: "2%", right: "2%" } },
+      768: {
+        perPage: 1,
+        gap: "1rem",
+        focus: 0,
+        padding: { left: "2%", right: "2%" },
+      },
     },
   });
 
@@ -124,12 +128,14 @@ document.addEventListener("DOMContentLoaded", function () {
   if (nextBtn) nextBtn.addEventListener("click", () => splide.go(">"));
 
   // ✅ Get only NON-clone slides
-  const slides = splide.Components.Slides.get().filter(s => !s.isClone);
+  const slides = splide.Components.Slides.get().filter((s) => !s.isClone);
 
-  const uniqueSrcs = slides.map(slide => {
-    const img = slide.slide.querySelector(".testimonial-author img");
-    return img ? img.src : null;
-  }).filter(Boolean);
+  const uniqueSrcs = slides
+    .map((slide) => {
+      const img = slide.slide.querySelector(".testimonial-author img");
+      return img ? img.src : null;
+    })
+    .filter(Boolean);
 
   // Debug count
   console.log("Original slides:", uniqueSrcs.length);
@@ -161,7 +167,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-
 /****************************************************
  *
  * ?         services slider
@@ -189,10 +194,9 @@ const swiper = new Swiper(".services__slider", {
   },
 });
 
-
 /****************************************************
  *
- * ?         WORK ACCORDION TAB 
+ * ?         WORK ACCORDION TAB
  *
  ****************************************************/
 
@@ -213,14 +217,28 @@ gsap.to(".work__accordion__image", {
   },
 });
 
-
+//////////////////////////
 
 Fancybox.bind("[data-fancybox='gallery']", {
-  Thumbs: false,
-  Toolbar: {
-    display: [
-      { id: "counter", position: "center" },
-      "close",
-    ],
+  Thumbs: {
+    autoStart: true,
   },
+  Toolbar: {
+    display: ["zoom", "close"],
+  },
+  animationEffect: "zoom-in-out",
+  transitionEffect: "fade",
+});
+
+////////////////////////////
+
+Fancybox.bind("[data-fancybox='mixGallery']", {
+  Thumbs: {
+    autoStart: true,
+  },
+  Toolbar: {
+    display: ["zoom", "close"],
+  },
+  animationEffect: "zoom-in-out",
+  transitionEffect: "fade",
 });

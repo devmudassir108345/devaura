@@ -112,10 +112,10 @@
         <div class="container-auto">
           <div class="banner__container">
             <div class="heading--primary">
-              <h1>About <span class="cl-gradient">us</span></h1>
+              <h1>Images <span class="cl-gradient">gallery </span></h1>
             </div>
             <div class="banner__crums mt-[1.8rem] text-cp">
-              <a href="#">home</a> / <span>about us</span>
+              <a href="#">home</a> / <span>img-gallery </span>
             </div>
           </div>
         </div>
@@ -141,82 +141,257 @@
 
     <!--
   ┌─────────────────────────────────────────────┐
-  │       SECTION  BLOGS           : START      │
+  │     SECTION VIDEO GALLERY    : START        │
   └─────────────────────────────────────────────┘
   -->
 
-    <section
-      class="section-blogs pt-[15rem] max-[670px]:pt-[5rem] pb-[15rem] max-[670px]:pb-[5rem]"
-    >
-      <div class="blogs">
-        <div class="container-auto">
-          <div class="blogs__container">
-            <a href="#" class="blogs__item">
-              <div class="blogs__img shine-glass-effect">
-                <img src="asset/images/post-1.jpg" alt="blog post 1" />
+    <section class="section-video-gallery mt-[10rem]">
+      <div class="container-auto">
+        <div class="gallery__grid">
+          <!-- Image 1 -->
+          <a
+            data-fancybox="mixGallery"
+            href="asset/images/intro-bg-image.jpg"
+            class="gallery__item"
+          >
+            <img src="asset/images/intro-bg-image.jpg" alt="Gallery Image" />
+          </a>
+
+          <!-- Image 2 -->
+          <a
+            data-fancybox="mixGallery"
+            href="asset/images/intro-bg-image.jpg"
+            class="gallery__item"
+          >
+            <img src="asset/images/intro-bg-image.jpg" alt="Gallery Image" />
+          </a>
+
+          <!-- MP4 Video -->
+          <a
+            data-fancybox="mixGallery"
+            data-caption="YouTube Video Example"
+            href="https://www.youtube.com/watch?v=ScMzIvxBSi4"
+            class="gallery__item"
+          >
+            <img src="asset/images/intro-bg-image.jpg" alt="YouTube Video" />
+            <div class="gallery_btn">
+              <i class="fas fa-play bg-gradient-hvr"></i>
+            </div>
+          </a>
+
+          <!-- YouTube Video -->
+          <a
+            data-fancybox="mixGallery"
+            data-caption="YouTube Video Example"
+            href="https://www.youtube.com/watch?v=ScMzIvxBSi4"
+            class="gallery__item"
+          >
+            <img src="asset/images/intro-bg-image.jpg" alt="YouTube Video" />
+            <div class="gallery_btn">
+              <i class="fas fa-play bg-gradient-hvr"></i>
+            </div>
+          </a>
+
+          <!-- Vimeo Video -->
+          <a
+            data-fancybox="mixGallery"
+            data-caption="Vimeo Video Example"
+            href="https://vimeo.com/76979871"
+            class="gallery__item"
+          >
+            <img src="asset/images/intro-bg-image.jpg" alt="Vimeo Video" />
+            <div class="gallery_btn">
+              <i class="fas fa-play bg-gradient-hvr"></i>
+            </div>
+          </a>
+
+          <!-- Image 3 -->
+          <a
+            data-fancybox="mixGallery"
+            href="asset/images/intro-bg-image.jpg"
+            class="gallery__item"
+          >
+            <img src="asset/images/intro-bg-image.jpg" alt="Gallery Image" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--
+  ┌─────────────────────────────────────────────┐
+  │       SECTION  CONTACT    : START           │
+  └─────────────────────────────────────────────┘
+  -->
+
+    <section class="section--contact">
+      <div class="container-auto">
+        <div class="contact cl-white">
+          <div class="container-sm">
+            <div class="contact__headings">
+              <div class="heading--tertiary justify-center">
+                <h3>contact us</h3>
               </div>
-              <div class="heading--secondary-sm">
-                <h2>Wireframing Like a Pro Best Practices and Tools</h2>
+              <div class="heading--secondary">
+                <h2>
+                  Get in touch to discuss your
+                  <span class="cl-gradient">next project</span>
+                </h2>
               </div>
-              <div class="blog__btn">
-                <button class="cl-gradient text-cp">read more</button>
+              <div class="text mt-[2rem]">
+                <p>
+                  Have a project in mind? Contact us for expert design and
+                  development solutions. Let's discuss how we can help grow your
+                  business.
+                </p>
               </div>
-            </a>
-            <a href="#" class="blogs__item">
-              <div class="blogs__img shine-glass-effect">
-                <img src="asset/images/post-1.jpg" alt="blog post 1" />
+            </div>
+            <div class="contact__container">
+              <div class="contact__col">
+                <div class="contact__img shine-glass-effect">
+                  <img
+                    src="asset/images/person__img.jpg"
+                    alt="a professional img of person"
+                  />
+                  <div class="contact__icons">
+                    <a
+                      href="#"
+                      class="icon cl-gradient"
+                      data-tooltip="LinkedIn"
+                    >
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="icon cl-gradient"
+                      data-tooltip="Instagram"
+                    >
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="icon cl-gradient" data-tooltip="X">
+                      <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="icon cl-gradient" data-tooltip="Drible">
+                      <i class="fa-light fa-basketball"></i>
+                    </a>
+                    <a href="#" class="icon cl-gradient" data-tooltip="Behance">
+                      <i class="fa-brands fa-behance"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="text__sm mt-20">
+                  <p>
+                    Hi, <strong>I’m Divyansh - Founder at Webyansh</strong>.
+                    <a href="# " class="cl-gradient">Schedule a call with me</a>
+                    to discuss in detail about your project and how we can help
+                    your business. You can also
+                    <strong>request for free custom quote</strong> if the scope
+                    of work is clear.
+                  </p>
+                </div>
               </div>
-              <div class="heading--secondary-sm">
-                <h2>Wireframing Like a Pro Best Practices and Tools</h2>
+
+              <div class="contact__form">
+                <form class="form">
+                  <!-- First Row - Name and Email -->
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Tony Stark"
+                        required
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email Address</label>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="tony@starkindustries.com"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <!-- Second Row - Help and Budget -->
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="help">How we can help? *</label>
+                      <select id="help" name="help" required>
+                        <option value="">Select</option>
+                        <option value="web-development">Web Development</option>
+                        <option value="mobile-app">Mobile App</option>
+                        <option value="consulting">Consulting</option>
+                        <option value="design">Design</option>
+                        <option value="marketing">Marketing</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="budget">what's your budget ? *</label>
+                      <select id="budget" name="budget">
+                        <option value="$2k - $5k">$2k - $5k</option>
+                        <option value="$5k - $10k">$5k - $10k</option>
+                        <option value="$10k - $20k">$10k - $20k</option>
+                        <option value="$20k - $50k">$20k - $50k</option>
+                        <option value="$50k+">$50k+</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <!-- Third Row - Deadline and Source -->
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="deadline"
+                        >what yours project deadline ? *</label
+                      >
+                      <select id="deadline" name="deadline" required>
+                        <option value="Less than 4 weeks">
+                          Less than 4 weeks
+                        </option>
+                        <option value="4 to 10 weeks">4 to 10 weeks</option>
+                        <option value="more than 10 weeks">
+                          More than 10 weeks
+                        </option>
+                        <option value="hard deadline">Hard Deadline</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="hear from"
+                        >How did you hear about us ? *</label
+                      >
+                      <select id="hear from" name="hear from" required>
+                        <option value="Google">Google</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="Twitter">Twitter</option>
+                        <option value="LinkedIn">LinkedIn</option>
+                        <option value="Referral">Referral</option>
+                        <option value="Other">Other</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <!-- Message Field -->
+                  <div class="form-group full-width">
+                    <label for="message">Message</label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      placeholder="Your Message"
+                    ></textarea>
+                  </div>
+                  <div class="form-group">
+                    <div class="form__btn">
+                      <button type="submit" class="btn btn--primary">
+                        submitt and book a call
+                      </button>
+                    </div>
+                  </div>
+                </form>
               </div>
-              <div class="blog__btn">
-                <button class="cl-gradient text-cp">read more</button>
-              </div>
-            </a>
-            <a href="#" class="blogs__item">
-              <div class="blogs__img shine-glass-effect">
-                <img src="asset/images/post-1.jpg" alt="blog post 1" />
-              </div>
-              <div class="heading--secondary-sm">
-                <h2>Wireframing Like a Pro Best Practices and Tools</h2>
-              </div>
-              <div class="blog__btn">
-                <button class="cl-gradient text-cp">read more</button>
-              </div>
-            </a>
-            <a href="#" class="blogs__item">
-              <div class="blogs__img shine-glass-effect">
-                <img src="asset/images/post-1.jpg" alt="blog post 1" />
-              </div>
-              <div class="heading--secondary-sm">
-                <h2>Wireframing Like a Pro Best Practices and Tools</h2>
-              </div>
-              <div class="blog__btn">
-                <button class="cl-gradient text-cp">read more</button>
-              </div>
-            </a>
-            <a href="#" class="blogs__item">
-              <div class="blogs__img shine-glass-effect">
-                <img src="asset/images/post-1.jpg" alt="blog post 1" />
-              </div>
-              <div class="heading--secondary-sm">
-                <h2>Wireframing Like a Pro Best Practices and Tools</h2>
-              </div>
-              <div class="blog__btn">
-                <button class="cl-gradient text-cp">read more</button>
-              </div>
-            </a>
-            <a href="#" class="blogs__item">
-              <div class="blogs__img shine-glass-effect">
-                <img src="asset/images/post-1.jpg" alt="blog post 1" />
-              </div>
-              <div class="heading--secondary-sm">
-                <h2>Wireframing Like a Pro Best Practices and Tools</h2>
-              </div>
-              <div class="blog__btn">
-                <button class="cl-gradient text-cp">read more</button>
-              </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>
