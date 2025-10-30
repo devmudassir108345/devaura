@@ -50,13 +50,15 @@
             <ul class="header__list">
               <li><a href="index.html">Home</a></li>
               <li><a href="about.html">About Us</a></li>
-              <li><a href="services.html" class="active">Services</a></li>
+              <li><a href="services.html" >Services</a></li>
               <li><a href="blog.html">Blog</a></li>
 
               <li class="dropdown">
                 <a href="#">Pages </a>
                 <ul>
-                  <li><a href="service-single-1.html">services details</a></li>
+                  <li><a href="service-single-1.html " class="active">services single 1</a></li>
+                  <li><a href="service-single-2.html" >services single 2</a></li>
+                  <li><a href="service-single-3.html">services single 3 </a></li>
                   <li><a href="blog.html">blog details </a></li>
                   <li><a href="porfolio.html">porfolio </a></li>
                   <li><a href="porfolio-single.html">portfolio details </a></li>
@@ -994,32 +996,6 @@
   <script src="asset/js/swiper-bundle.js"></script>
   <script src="asset/js/lib-init.js"></script>
 
-  <script>
-    gsap.registerPlugin(ScrollTrigger);
-
-    ScrollTrigger.matchMedia({
-      // ✅ Desktop (above 1400px)
-      "(min-width: 1400px)": function () {
-        gsap.to(".hero__video-2", {
-          borderRadius: "10px",
-          scale: 3.7, // desktop value
-          xPercent: -95,
-          yPercent: 190,
-          y: "-10%",
-          scrollTrigger: {
-            trigger: ".hero",
-            start: "top -30%",
-            end: "top -90%",
-            scrub: 1,
-          },
-        });
-      },
-
-      // ✅ Smaller screens (below 1400px)
-
-    });
-
-  </script>
 </body>
 
 </html>
