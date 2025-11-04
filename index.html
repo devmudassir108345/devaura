@@ -49,15 +49,19 @@
             <ul class="header__list">
               <li><a href="index.html" class="active">Home</a></li>
               <li><a href="about.html">About Us</a></li>
-              <li><a href="services.html" >Services</a></li>
+              <li><a href="services.html">Services</a></li>
               <li><a href="blog.html">Blog</a></li>
 
               <li class="dropdown">
                 <a href="#">Pages </a>
                 <ul>
-                  <li><a href="service-single-1.html " >services single 1</a></li>
-                  <li><a href="service-single-2.html" >services single 2</a></li>
-                  <li><a href="service-single-3.html">services single 3 </a></li>
+                  <li>
+                    <a href="service-single-1.html ">services single 1</a>
+                  </li>
+                  <li><a href="service-single-2.html">services single 2</a></li>
+                  <li>
+                    <a href="service-single-3.html">services single 3 </a>
+                  </li>
                   <li><a href="blog.html">blog details </a></li>
                   <li><a href="porfolio.html">porfolio </a></li>
                   <li><a href="porfolio-single.html">portfolio details </a></li>
@@ -66,7 +70,7 @@
                   <li><a href="testimonial.html">testimonials </a></li>
                   <li><a href="img-gallery.html">image gallery </a></li>
                   <li><a href="video-gallery.html">video gallery </a></li>
-                  <li><a href="mix-gallery.html">mix  gallery </a></li>
+                  <li><a href="mix-gallery.html">mix gallery </a></li>
                   <li class="sub-dropdown">
                     <a href="#">header layout </a>
                     <ul>
@@ -132,7 +136,6 @@
               </div>
               <div class="hero__btns mt-[3rem]">
                 <a href="#" class="btn btn--primary">get started </a>
-
               </div>
             </div>
             <div class="hero__imges">
@@ -318,7 +321,7 @@
     >
       <div class="about">
         <div class="container-auto">
-          <div class="about__container">
+          <div class="about__container counter">
             <div class="about__col-left">
               <div class="about__img">
                 <img
@@ -326,11 +329,12 @@
                   alt=""
                   class="spiner"
                 />
-                <img
-                  src="asset/images/about-us-img.png"
-                  alt="about us img "
-                  class="person"
-                />
+                <div class="about__inner-img bg-gradient-hvr">
+                  <img
+                    src="asset/images/hero-img.png.png"
+                    alt="about us img "
+                  />
+                </div>
               </div>
             </div>
             <div class="about__col-right">
@@ -384,7 +388,9 @@
 
                 <div class="about__info-row-right">
                   <div class="about__year f-sb">
-                    <h2 class="cl-gradient">12+</h2>
+                    <h2 class="cl-gradient">
+                      <span class="count " data-count="12"></span>+
+                    </h2>
                     <p>years experience</p>
                   </div>
                   <div class="text mt-15 text-cp text-center">

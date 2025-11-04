@@ -32,7 +32,7 @@ body {
   font-size: 1.6rem;
   color: #f8f8f8;
   position: relative;
-  background-color: #163031;
+  background-color: #0f2923;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -53,7 +53,7 @@ html.lenis {
 }
 
 ::selection {
-  background-color: #163031;
+  background-color: #0f2923;
   color: #ffffff;
 }
 
@@ -140,7 +140,7 @@ html.lenis {
   position: absolute;
   top: -5%;
   left: 0;
-  background: linear-gradient(to bottom, #163031, #f0ff6c, #6bfdd9);
+  background: linear-gradient(to bottom, #0f2923, #8af135, #6bfdd9);
   animation: upDown linear infinite;
 }
 
@@ -163,7 +163,7 @@ html.lenis {
   pointer-events: none;
   opacity: 0;
   transition: opacity, transform 0.2s ease;
-  background-image: linear-gradient(90deg, #6bfdd9, #f0ff6c);
+  background-image: linear-gradient(90deg, #6bfdd9, #8af135);
   display: block;
   height: 1rem;
   width: 1rem;
@@ -178,7 +178,7 @@ html.lenis {
 }
 
 .btn {
-  padding: 1.8rem 3rem;
+  padding: 1.5rem 3rem;
   border-radius: 50px;
   text-transform: capitalize;
   font-family: "Montserrat-semi";
@@ -196,21 +196,21 @@ html.lenis {
 }
 .btn--primary {
   background-size: 200% auto;
-  color: #163031;
-  background-image: linear-gradient(to left, #6bfdd9 0%, #f0ff6c 50%, #6bfdd9 100%);
+  color: #0f2923;
+  background-image: linear-gradient(to left, #6bfdd9 0%, #8af135 50%, #6bfdd9 100%);
 }
 .btn--primary:hover {
   background-position: right center;
 }
 .btn--secondary {
-  background-color: #163031;
+  background-color: #0f2923;
   color: #ffffff;
   position: relative;
   z-index: 2;
   overflow: hidden;
 }
 .btn--secondary:hover {
-  color: #163031 !important;
+  color: #0f2923 !important;
 }
 .btn--secondary::before {
   content: "";
@@ -231,10 +231,10 @@ html.lenis {
 }
 
 .bg-gradient {
-  background: linear-gradient(90deg, #6bfdd9, #f0ff6c);
+  background: linear-gradient(90deg, #6bfdd9, #8af135);
 }
 .bg-primary {
-  background-color: #163031;
+  background-color: #0f2923;
 }
 .bg-primary-light {
   background-color: #243c3d;
@@ -242,7 +242,7 @@ html.lenis {
 
 .bg-gradient-hvr {
   background-size: 200% auto;
-  background-image: linear-gradient(to left, #6bfdd9 0%, #f0ff6c 50%, #6bfdd9 100%);
+  background-image: linear-gradient(to left, #6bfdd9 0%, #8af135 50%, #6bfdd9 100%);
   transition: all 1s;
 }
 .bg-gradient-hvr:hover {
@@ -251,7 +251,7 @@ html.lenis {
 
 .cl-gradient {
   /* The gradient itself */
-  background-image: linear-gradient(to left, #6bfdd9 0%, #f0ff6c 50%, #6bfdd9 100%);
+  background-image: linear-gradient(to left, #6bfdd9 0%, #8af135 50%, #6bfdd9 100%);
   background-clip: text;
   -webkit-background-clip: text;
   /* Make the gradient visible through the glyphs */
@@ -266,7 +266,7 @@ html.lenis {
   background-position: right center; /* change the direction of the change here */
 }
 .cl-primary {
-  color: #163031;
+  color: #0f2923;
 }
 .cl-white {
   color: #ffffff;
@@ -296,7 +296,7 @@ html.lenis {
   display: block;
   height: 1rem;
   width: 1rem;
-  background-image: linear-gradient(90deg, #6bfdd9, #f0ff6c);
+  background-image: linear-gradient(90deg, #6bfdd9, #8af135);
   border-radius: 50%;
 }
 .heading--secondary {
@@ -331,7 +331,7 @@ html.lenis {
   justify-content: center;
   border-radius: 50%;
   background-size: 200% auto;
-  background-image: linear-gradient(to left, #f0ff6c 0%, #6bfdd9 40%, #f0ff6c 100%);
+  background-image: linear-gradient(to left, #8af135 0%, #6bfdd9 40%, #8af135 100%);
   transition: all 0.3s;
 }
 .arrow img {
@@ -437,7 +437,7 @@ html.lenis {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #163031;
+  color: #0f2923;
   font-size: 3rem;
   cursor: pointer;
   height: 8.4rem;
@@ -455,8 +455,8 @@ html.lenis {
   }
 }
 .video__container i:hover {
-  color: #163031;
-  border-color: #163031;
+  color: #0f2923;
+  border-color: #0f2923;
 }
 
 .icon {
@@ -473,13 +473,13 @@ html.lenis {
   color: #ffffff;
 }
 .icon--primary {
-  background-color: #163031;
+  background-color: #0f2923;
 }
 .icon--primary:hover {
   background-color: #ffffff;
 }
 .icon--primary:hover i {
-  color: #163031;
+  color: #0f2923;
 }
 
 .macbook-wrapper {
@@ -580,7 +580,7 @@ html.lenis {
   transform: translateY(-50%);
   height: 1.3rem;
   width: 1.3rem;
-  background-image: linear-gradient(90deg, #6bfdd9, #f0ff6c);
+  background-image: linear-gradient(90deg, #6bfdd9, #8af135);
   transform: rotate(-45deg);
   padding-left: -1rem;
 }
@@ -602,7 +602,7 @@ html.lenis {
   transform: translateY(-50%);
   height: 0.5rem;
   width: 0.5rem;
-  background-image: linear-gradient(90deg, #6bfdd9, #f0ff6c);
+  background-image: linear-gradient(90deg, #6bfdd9, #8af135);
   transform: rotate(-45deg);
   padding-left: -1rem;
   border-radius: 50%;
@@ -623,8 +623,8 @@ html.lenis {
   text-transform: capitalize;
   border-radius: 50px;
   border: 1px solid #8f8f8f;
-  background-image: linear-gradient(90deg, #6bfdd9, #f0ff6c);
-  color: #163031;
+  background-image: linear-gradient(90deg, #6bfdd9, #8af135);
+  color: #0f2923;
   font-family: "Montserrat-semi";
 }
 
@@ -653,7 +653,7 @@ html.lenis {
   background: none;
   width: 180px;
   font-size: 1.8rem;
-  background-color: #163031;
+  background-color: #0f2923;
 }
 .comparison-table td {
   background-color: #243c3d;
@@ -687,11 +687,11 @@ html.lenis {
     font-weight: bold;
     display: block;
     margin-bottom: 0.5rem;
-    color: #f0ff6c;
+    color: #8af135;
   }
   .comparison-table td:first-child {
     background: #6bfdd9;
-    color: #163031;
+    color: #0f2923;
     width: 100%;
   }
 }
@@ -775,9 +775,14 @@ html.lenis {
   }
 }
 .header {
-  padding: 2.4rem 0;
   position: relative;
   z-index: 100;
+  background-color: #2a4741;
+  max-width: 1280px;
+  margin: auto;
+  border-radius: 88px;
+  padding: 10px;
+  margin: 2rem auto;
 }
 @media (max-width: 767px) {
   .header {
@@ -799,8 +804,12 @@ html.lenis {
 .header__list .active {
   color: #6bfdd9;
 }
+@media (max-width: 1200px) {
+  .header__list .active {
+    color: #000000;
+  }
+}
 .header__nav {
-  background-color: #243c3d;
   padding: 0rem 3rem;
   border-radius: 50px;
   transition: all 0.3s;
@@ -813,9 +822,9 @@ html.lenis {
     position: fixed;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to right, #6bfdd9, #f0ff6c);
+    background-image: linear-gradient(to right, #6bfdd9, #8af135);
     border-radius: 0%;
-    color: #163031;
+    color: #0f2923;
     z-index: 100;
     overflow: scroll;
   }
@@ -829,7 +838,7 @@ html.lenis {
     font-size: 2.2rem;
   }
   .header__nav .header__list a:hover {
-    color: #163031;
+    color: #0f2923;
   }
   .header__nav-hidden {
     left: -100%;
@@ -863,7 +872,7 @@ html.lenis {
   }
   .header__nav ul li.dropdown ul {
     min-width: 230px;
-    background-image: linear-gradient(to left, #f0ff6c, #6bfdd9);
+    background-image: linear-gradient(to left, #8af135, #6bfdd9);
     visibility: hidden;
     opacity: 0;
     flex-direction: column;
@@ -882,7 +891,7 @@ html.lenis {
     font-family: "Montserrat-semi";
   }
   .header__nav ul li.dropdown ul li a:hover {
-    color: #163031;
+    color: #0f2923;
   }
   .header__nav ul li.dropdown > ul {
     top: 100%;
@@ -969,7 +978,7 @@ html.lenis {
 .header__menu span {
   height: 3px;
   width: 3rem;
-  background-color: #163031;
+  background-color: #0f2923;
 }
 @media (max-width: 1200px) {
   .header__menu {
@@ -1002,11 +1011,11 @@ html.lenis {
   transition: all 0.3s;
 }
 .header__close i:hover {
-  background-color: #163031;
+  background-color: #0f2923;
 }
 
 .footer {
-  color: #163031;
+  color: #0f2923;
   padding-top: 11rem;
   padding-bottom: 4rem;
 }
@@ -1051,7 +1060,7 @@ html.lenis {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #163031;
+  background-color: #0f2923;
   border-radius: 50%;
 }
 .footer__icon i {
@@ -1178,7 +1187,7 @@ html.lenis {
 }
 .hero .hero__col-right::after {
   bottom: 0;
-  background: linear-gradient(to top, rgba(22, 48, 49, 0.95) 0%, rgba(22, 48, 49, 0.7) 35%, rgba(22, 48, 49, 0.2) 70%, transparent 100%);
+  background: linear-gradient(to top, rgba(15, 41, 35, 0.95) 0%, rgba(15, 41, 35, 0.7) 35%, rgba(15, 41, 35, 0.2) 70%, transparent 100%);
 }
 .hero .hero__img-grid {
   column-count: 2;
@@ -1235,7 +1244,7 @@ html.lenis {
 .hero__box {
   padding: 1.5rem 3rem;
   width: 21rem;
-  color: #163031;
+  color: #0f2923;
   background-color: #ffffff;
   text-transform: capitalize;
   font-family: "Montserrat-semi";
@@ -1260,7 +1269,7 @@ html.lenis {
   content: "";
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(to right, #f0ff6c, #6bfdd9);
+  background-image: linear-gradient(to right, #8af135, #6bfdd9);
   display: block;
   position: absolute;
   top: 100%;
@@ -1465,7 +1474,7 @@ html.lenis {
 }
 .services__pagination .swiper-pagination-bullet-active {
   width: 3rem;
-  background: linear-gradient(90deg, #6bfdd9, #f0ff6c); /* active color */
+  background: linear-gradient(90deg, #6bfdd9, #8af135); /* active color */
 }
 .services__item {
   display: block;
@@ -1530,7 +1539,7 @@ html.lenis {
   display: flex;
   align-items: center;
   gap: 1.8rem;
-  background-color: #163031;
+  background-color: #0f2923;
   padding: 2rem;
   border-radius: 15px;
   z-index: 10;
@@ -1573,7 +1582,7 @@ html.lenis {
   left: 50%;
   height: 2px;
   width: 0;
-  background-color: #163031;
+  background-color: #0f2923;
   transition: all 0.3s ease;
   transform: translateX(-50%);
 }
@@ -1643,14 +1652,14 @@ html.lenis {
   background-color: #f9fafb;
 }
 .contact__form-main .radio-input:checked + .radio-label {
-  border-color: #163031;
-  background-color: #163031;
+  border-color: #0f2923;
+  background-color: #0f2923;
   color: white;
 }
 .contact__form-main .submit-btn {
   width: 100%;
   padding: 0.75rem 1.5rem;
-  background-color: #163031;
+  background-color: #0f2923;
   color: white;
   border: none;
   border-radius: 0.375rem;
@@ -1738,7 +1747,7 @@ html.lenis {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #243c3d;
-  border: 2px solid linear-gradient(90deg, #6bfdd9, #f0ff6c);
+  border: 2px solid linear-gradient(90deg, #6bfdd9, #8af135);
   color: #ffffff;
   padding: 1.4rem 1.2rem;
   border-radius: 0.5rem;
@@ -1841,7 +1850,11 @@ html.lenis {
 .clients__slider .splide__track {
   padding: 2rem 0;
   cursor: grab;
-  overflow: visible;
+}
+@media (max-width: 767px) {
+  .clients__slider .splide__track {
+    overflow: visible;
+  }
 }
 .clients__slider .splide__track:active {
   cursor: grabbing;
@@ -2006,15 +2019,15 @@ html.lenis {
 }
 .accordion .active {
   border-color: #000000;
-  background-image: linear-gradient(90deg, #6bfdd9, #f0ff6c) !important;
-  color: #163031;
+  background-image: linear-gradient(90deg, #6bfdd9, #8af135) !important;
+  color: #0f2923;
   transition: all 0.3s;
 }
 .accordion .active .accordion-content {
   height: max-content;
 }
 .accordion .active .accordion-header {
-  color: #163031;
+  color: #0f2923;
   background: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
@@ -2022,7 +2035,7 @@ html.lenis {
 .accordion-item {
   border-radius: 20px;
   transition: all 0.3s;
-  color: #163031;
+  color: #0f2923;
   overflow: hidden;
   transition: all 0.3s;
 }
@@ -2216,8 +2229,8 @@ html.lenis {
   text-transform: capitalize;
   border-radius: 50px;
   border: 1px solid #8f8f8f;
-  background-image: linear-gradient(90deg, #6bfdd9, #f0ff6c);
-  color: #163031;
+  background-image: linear-gradient(90deg, #6bfdd9, #8af135);
+  color: #0f2923;
 }
 .story__footer {
   border-top: 1px solid #e0e0e0;
@@ -2242,7 +2255,7 @@ html.lenis {
   height: 1rem;
   width: 1rem;
   display: block;
-  background-image: linear-gradient(90deg, #6bfdd9, #f0ff6c);
+  background-image: linear-gradient(90deg, #6bfdd9, #8af135);
   border-radius: 50%;
 }
 .story__footer-heading {
@@ -2294,7 +2307,7 @@ html.lenis {
   }
 }
 .industry__headings span {
-  color: #163031;
+  color: #0f2923;
 }
 .industry__container {
   display: grid;
@@ -2338,7 +2351,7 @@ html.lenis {
 }
 .industry__right ul li a:hover {
   background-color: #e0e0e0;
-  color: #163031;
+  color: #0f2923;
   transform: scale(0.98);
 }
 @media (max-width: 992px) {
@@ -2724,6 +2737,40 @@ html.lenis {
   max-width: 610px;
   aspect-ratio: 1/1;
 }
+.about__img .about__inner-img {
+  display: block;
+  height: 87%;
+  width: 87%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.about__img .about__inner-img::after {
+  content: "";
+  display: block;
+  height: 87%;
+  width: 87%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background-color: #0f2923;
+  border-radius: 50%;
+  z-index: 0;
+}
+.about__img .about__inner-img img {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 122%;
+  object-fit: cover;
+  z-index: 10;
+}
 .about__img .spiner {
   width: 100%;
   height: 100%;
@@ -2809,7 +2856,7 @@ html.lenis {
 }
 
 .category {
-  color: #163031;
+  color: #0f2923;
   font-size: clamp(2.2rem, 3vw + 1rem, 3.5rem);
   font-weight: 600 !important;
   clear: both;
@@ -3064,7 +3111,7 @@ html.lenis {
   background-color: #ffffff;
   border-radius: 50%;
   font-size: 1.2rem;
-  color: #163031;
+  color: #0f2923;
   font-weight: 700;
   display: flex;
   align-self: center;
@@ -3088,8 +3135,8 @@ html.lenis {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(90deg, #6bfdd9, #f0ff6c);
-  color: #163031;
+  background-image: linear-gradient(90deg, #6bfdd9, #8af135);
+  color: #0f2923;
   transform: rotate(45deg);
 }
 
@@ -3294,7 +3341,7 @@ html.lenis {
   transform: translate(-50%, -50%);
   display: flex;
   gap: 1rem;
-  background-image: linear-gradient(90deg, #6bfdd9, #f0ff6c);
+  background-image: linear-gradient(90deg, #6bfdd9, #8af135);
   padding: 0.8rem 1.8rem;
   border-radius: 25px;
   opacity: 0;
@@ -3340,7 +3387,7 @@ html.lenis {
   bottom: 0;
   left: 0;
   height: 2px;
-  background: #f0ff6c;
+  background: #8af135;
   width: 0;
   transition: left 0.3s ease, width 0.3s ease;
 }
@@ -3443,7 +3490,7 @@ html.lenis {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #163031;
+  color: #0f2923;
   font-size: 2rem;
   cursor: pointer;
   height: 6.4rem;
@@ -3459,8 +3506,8 @@ html.lenis {
   cursor: pointer;
 }
 .gallery__item i:hover {
-  color: #163031;
-  border-color: #163031;
+  color: #0f2923;
+  border-color: #0f2923;
 }
 .gallery__thumbnail {
   height: 100%;

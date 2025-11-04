@@ -76,7 +76,7 @@
           },
           768: {
             perPage: 1,
-            gap: "1rem",
+            gap: "3rem",
             focus: 0,
             padding: { left: "2%", right: "2%" },
           },
